@@ -1,0 +1,18 @@
+*{ /*Quitamos los margenes de toda la pagina web*/
+    margin: 0%;
+    
+}
+
+main{ /*Modificamos todo el main para que la posicion del contenido sea relativo*/
+    position: relative;
+    margin-top: 1%;
+    margin-bottom: 1%;
+    
+}
+video{/* posicionamos el video una octava parte en el centro*/
+    margin-left: 15%;
+    
+}
+iframe{/* posicionamos el video una octava parte en el centro*/
+    margin-right: -15%; 
+}

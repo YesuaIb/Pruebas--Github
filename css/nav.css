@@ -1,0 +1,27 @@
+/*Modificamos la lista con el color y quitamos la viñeta*/
+#menu ul {    
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+} 
+
+/*posicionamos el nav*/
+#menu li { 
+    float: left;
+} 
+/*decidimos su comportamiento*/
+#menu li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+} 
+#menu li a:hover:not(.activo) {
+    background-color: green;
+}
+#menu .activo { /*afectamos al enlace con la calse activo dentro del nav con identificador menu */
+    background-color: grey;
+}

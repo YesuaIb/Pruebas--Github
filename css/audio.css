@@ -1,0 +1,12 @@
+*{ /*Quitamos los margenes de toda la pagina web*/
+    margin: 0%;
+}
+main{
+    background-color:aquamarine;
+}
+audio{/*Centramos el contenido y le damos un color de fondo*/
+    margin-top: 1%;
+    margin-left: 20%;
+    background-color: green;
+    margin-bottom: 1%;
+}

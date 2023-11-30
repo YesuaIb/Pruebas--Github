@@ -1,0 +1,34 @@
+*{ /*Quitamos los margenes de toda la pagina web*/
+    margin: 0%;
+}
+
+/*Parte del header*/
+
+header{ /*modificamos el background con un color*/
+    background-color: aquamarine;
+}
+h1{ /*Centramos el titulo*/
+    text-align: center;    
+}
+
+
+/*Parte del main*/
+
+main{ /*Modificamos todo el main para que la posicion del contenido sea relativo*/
+    position: relative;
+    margin-top: 1%;
+
+}
+img{/*Posicionamos la imagen a la izquierda y le damos un tamaño*/
+    height:180px;   
+    left: 0;
+    float:left;
+    
+}
+main h2{ /*Generamos un margen superior para que tenda una distancia con la barra de navegacion*/
+    margin-bottom: 10px;
+}
+main p{
+    margin-bottom: 2%;
+}
+

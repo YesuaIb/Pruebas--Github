@@ -1,0 +1,22 @@
+*{ /*Quitamos los margenes de toda la pagina web*/
+    margin: 0%;
+}
+
+/*definimos cuanto ocupara la tabla y como sera su contorno*/
+table{
+    margin-top: 1%;
+    width: 50%;
+    margin-left: 25%;
+    margin-right: 25%;
+    border: 1px solid #333;
+    margin-bottom: 1%;
+    background-color:cyan;
+}
+th, td{
+    width: 25%;
+    text-align: center;
+    vertical-align: top;
+    border: 1px solid #333;
+    border-collapse: collapse;
+    color:orangered ;
+}
